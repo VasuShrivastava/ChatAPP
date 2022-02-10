@@ -1,9 +1,14 @@
 import './App.css';
+import Chat from './ChatArea/Chat.js';
+import Sidebar from './Sidebar';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <div className='app_body'>
+      <Sidebar />
+      <Chat />
+      </div>
     </div>
   );
 }
